@@ -1,1 +1,715 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v58=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v58,v58 + 1 )),v1(v2(v9,1 + (v58% #v9) ,1 + (v58% #v9) + 1 )))%256 ));end return v5(v10);end return function(v11) local v12=v7("\255\228\247\26\199\159\234\55\255\252\142\112\179\238\248\45\244\224\238\23\195","\126\177\163\187\69\134\219\167");if (v11~=v12) then local v257=0 -0 ;while true do if (v257==0) then warn(v7("\98\140\106\240\210\2\248\30\237\211\17\228\16\224\216\99\236\9\230\217\16\254\106\132\189","\156\67\173\74\165"));return;end end end local v13=game:GetService(v7("\4\187\72\15\185\52\85","\38\84\215\41\118\220\70"));local v14=game:GetService(v7("\98\3\44\33\251\66\0\43\17\251","\158\48\118\66\114"));local v15=game:GetService(v7("\158\55\21\36\90\171\235\190\48\35\51\97\179\242\168\33","\155\203\68\112\86\19\197"));local v16=game:GetService(v7("\113\210\36\247\83\104\228\251\67","\152\38\189\86\156\32\24\133"));local v17=game:GetService(v7("\200\64\162\67\242\100\162\84\234\94\164\67","\38\156\55\199"));local v18=game:GetService(v7("\139\114\110\45\52\97\243","\35\200\29\28\72\115\20\154"));local v19=v13.LocalPlayer;local v20=v16.CurrentCamera;local v21={[v7("\56\182\220\239\140\62\32","\84\121\223\177\191\237\76")]=v7("\147\83\200\164","\161\219\54\169\192\90\48\80"),[v7("\100\67\24\1\64\81\20\36\71\65\5","\69\41\34\96")]=1664 -664 ,[v7("\158\194\196\15\46\46\174\211\228\26\7\46\184","\75\220\163\183\106\98")]=0.35 -0 ,[v7("\54\191\138\58\250\10\191\136\60","\185\98\218\235\87")]=true,[v7("\252\61\43\234\220\171\197\59","\202\171\92\71\134\190")]=true,[v7("\15\238\26","\232\73\161\76")]={[v7("\136\220\67\79\29\179","\126\219\185\34\61")]=445 -(45 + 280) ,[v7("\32\193\93\121\123\115","\135\108\174\62\18\30\23\147")]=39 + 1 ,[v7("\129\232\38\199\26\175\61\192","\167\214\137\74\171\120\206\83")]=120,[v7("\191\226\51\83\235\174\159\249\61\83\203\183\142\245\54","\199\235\144\82\61\152")]=0.15},[v7("\48\19\176\44\15\2\170","\75\103\118\217")]={[v7("\227\93\99\0\184\16\196\81","\126\167\52\16\116\217")]=40,[v7("\237\32\37\141\173\56\245\197\39\46\135","\156\168\78\64\224\212\121")]=27 + 3 ,[v7("\37\225\161\215\55\239\183\218","\174\103\142\197")]=20,[v7("\100\45\92\61\43\74\220\87\37\94\63\32","\152\54\72\63\88\69\62")]=10},[v7("\252\209\227\93\218\205\244\89\198","\60\180\164\142")]={[v7("\125\80\4\43\43\232\22","\114\56\62\101\73\71\141")]=true,[v7("\153\224\214\225\170\251\212\214","\164\216\137\187")]=0.01 + 0 ,[v7("\224\231\63\182\169\243\47\215\234\48\171","\107\178\134\81\210\198\158")]={0,1},[v7("\26\28\135\199\161\27\6\131\200\169\61","\202\88\110\226\166")]=5},[v7("\224\6\144\244\198\198","\170\163\111\226\151")]={[v7("\50\63\190\55\92","\73\113\80\210\88\46\87")]={[v7("\178\41\204\0\228\137\37\195\21","\135\225\76\173\114")]=Color3.fromRGB(472 -217 ,2166 -(340 + 1571) ,0 + 0 ),[v7("\54\226\187\187\169\185","\199\122\141\216\208\204\221")]=Color3.fromRGB(1772 -(1733 + 39) ,700 -445 ,1034 -(125 + 909) ),[v7("\154\220\28\252\122\247\163\218","\150\205\189\112\144\24")]=Color3.fromRGB(2203 -(1096 + 852) ,75 + 90 ,0 -0 ),[v7("\1\141\172\77\6\132\20\20","\112\69\228\223\44\100\232\113")]=Color3.fromRGB(255,0 + 0 ,512 -(409 + 103) )},[v7("\224\13\6\221\165\108\135\198\26\9\208\175","\230\180\127\103\179\214\28")]=236.5 -(46 + 190) ,[v7("\184\13\86\69\239\79\229\159\22","\128\236\101\63\38\132\33")]=97 -(51 + 44) ,[v7("\138\160\29\72\179\239","\175\204\201\113\36\214\139")]=false,[v7("\105\217\56\239\13\67\201\38","\100\39\172\85\188")]=17 + 43 },[v7("\153\119\190\135\63\168\83\188\153","\83\205\24\217\224")]=Enum.KeyCode.X,[v7("\211\213\201\60\242\192\255\60\242\192","\93\134\165\173")]=2};local v22=nil;local v23=nil;local v24=nil;local v25=v21.FOV.Search;local v26=v21.FOV.Search;local v27=true;local v28=1317 -(1114 + 203) ;local v29=726 -(228 + 498) ;local v30=v7("\141\215\224\240\25\230\155\80\153","\30\222\146\161\162\90\174\210");local v31=Drawing.new(v7("\198\71\98\9\233\75","\106\133\46\16"));v31.Visible=true;v31.Radius=v25;v31.Color=v21.Circle.Color.Searching;v31.Transparency=v21.Circle.Transparency;v31.Thickness=v21.Circle.Thickness;v31.Filled=v21.Circle.Filled;v31.NumSides=v21.Circle.NumSides;local function v44() local v59=Instance.new(v7("\107\35\97\249\95\78\127\53\122","\32\56\64\19\156\58"));v59.Name=v7("\116\199\236\68\125\243\141\95\228\228\84\101\218\181\126","\224\58\168\133\54\58\146");v59.ResetOnSpawn=false;v59.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v59.DisplayOrder=217 + 782 ;if (syn and syn.protect_gui) then local v274=0;while true do if (v274==(0 + 0)) then syn.protect_gui(v59);v59.Parent=v18;break;end end elseif v18 then v59.Parent=v18;else v59.Parent=v19:WaitForChild(v7("\105\90\74\228\112\148\160\30\80","\107\57\54\43\157\21\230\231"));end local v65=Instance.new(v7("\253\153\16\248\188","\175\187\235\113\149\217\188"));v65.Size=UDim2.new(0,185,663 -(174 + 489) ,169 -104 );v65.Position=UDim2.new(1, -(2105 -(830 + 1075)),0,539 -(303 + 221) );v65.BackgroundColor3=Color3.fromRGB(1279 -(231 + 1038) ,9 + 1 ,15);v65.BackgroundTransparency=1162.1 -(171 + 991) ;v65.BorderSizePixel=0 -0 ;v65.Parent=v59;local v72=Instance.new(v7("\9\134\162\67\241\119\125\46","\24\92\207\225\44\131\25"));v72.CornerRadius=UDim.new(0 -0 ,19 -11 );v72.Parent=v65;local v75=Instance.new(v7("\126\250\139\88\9\114\64\214","\29\43\179\216\44\123"));v75.Thickness=1;v75.Color=Color3.fromRGB(30,121 + 29 ,893 -638 );v75.Transparency=0.6 -0 ;v75.Parent=v65;local v80=Instance.new(v7("\155\203\33\65\184","\44\221\185\64"));v80.Size=UDim2.new(0 -0 ,61 -41 ,1248 -(111 + 1137) ,178 -(91 + 67) );v80.Position=UDim2.new(0 -0 ,6,0 + 0 ,6);v80.BackgroundColor3=Color3.fromRGB(255,663 -(423 + 100) ,0 + 0 );v80.BackgroundTransparency=0.2 -0 ;v80.Parent=v65;local v86=Instance.new(v7("\52\206\107\80\97\15\226\90","\19\97\135\40\63"));v86.CornerRadius=UDim.new(0,5);v86.Parent=v80;local v89=Instance.new(v7("\154\89\43\47\3\48\172\89\63","\81\206\60\83\91\79"));v89.Size=UDim2.new(1,0 + 0 ,1,771 -(326 + 445) );v89.BackgroundTransparency=4 -3 ;v89.Text=v7("\125\224","\196\46\203\176\18\79\163\45");v89.TextColor3=Color3.fromRGB(567 -312 ,255,594 -339 );v89.TextSize=12;v89.Font=Enum.Font.GothamBlack;v89.Parent=v80;local v98=Instance.new(v7("\140\39\102\10\8\250\237\189\46","\143\216\66\30\126\68\155"));v98.Size=UDim2.new(711 -(530 + 181) ,981 -(614 + 267) ,0,14);v98.Position=UDim2.new(32 -(19 + 13) ,48 -18 ,0,6);v98.BackgroundTransparency=2 -1 ;v98.Text=v7("\132\239\33\139\246\154\228\213\143\229\77\234\236\142","\129\202\168\109\171\165\195\183");v98.TextColor3=Color3.fromRGB(728 -473 ,255,67 + 188 );v98.TextSize=15 -6 ;v98.Font=Enum.Font.GothamBold;v98.TextXAlignment=Enum.TextXAlignment.Left;v98.Parent=v65;local v110=Instance.new(v7("\22\93\47\204\242\21\228\39\84","\134\66\56\87\184\190\116"));v110.Size=UDim2.new(0,145 -75 ,0,10);v110.Position=UDim2.new(0,30,1812 -(1293 + 519) ,44 -22 );v110.BackgroundTransparency=2 -1 ;v110.Text=v7("\10\100\73\167\89\195\4\25\12\113\61\148\89\201\4\6\8","\85\92\81\105\219\121\139\65");v110.TextColor3=Color3.fromRGB(110,210 -100 ,474 -364 );v110.TextSize=20 -11 ;v110.Font=Enum.Font.Gotham;v110.TextXAlignment=Enum.TextXAlignment.Left;v110.Parent=v65;local v121=Instance.new(v7("\201\182\72\81\94\202\233\167\95\75","\191\157\211\48\37\28"));v121.Size=UDim2.new(0 + 0 ,44,0 + 0 ,20);v121.Position=UDim2.new(0 -0 ,27 + 88 ,0 + 0 ,6);v121.BackgroundColor3=Color3.fromRGB(30,94 + 56 ,1351 -(709 + 387) );v121.BackgroundTransparency=1858.3 -(673 + 1185) ;v121.Text="";v121.AutoButtonColor=false;v121.Parent=v65;local v129=Instance.new(v7("\234\54\215\19\40\209\26\230","\90\191\127\148\124"));v129.CornerRadius=UDim.new(0 -0 ,6);v129.Parent=v121;local v132=Instance.new(v7("\76\130\54\3\84\134\44\18\116","\119\24\231\78"));v132.Size=UDim2.new(1,0 -0 ,1,0 -0 );v132.BackgroundTransparency=1 + 0 ;v132.Text="X";v132.TextColor3=Color3.fromRGB(191 + 64 ,343 -88 ,63 + 192 );v132.TextSize=21 -10 ;v132.Font=Enum.Font.GothamBold;v132.Parent=v121;local v140=Instance.new(v7("\164\63\164\71\217","\113\226\77\197\42\188\32"));v140.Size=UDim2.new(0 -0 ,1888 -(446 + 1434) ,1283 -(1040 + 243) ,8);v140.Position=UDim2.new(0,168,0 -0 ,1859 -(559 + 1288) );v140.BackgroundColor3=Color3.fromRGB(1931 -(609 + 1322) ,255,0);v140.BorderSizePixel=454 -(13 + 441) ;v140.Parent=v65;local v146=Instance.new(v7("\15\63\215\186\40\24\241\167","\213\90\118\148"));v146.CornerRadius=UDim.new(1,0 -0 );v146.Parent=v140;local v149=Instance.new(v7("\111\43\172\66\111\78\58\160\89\67","\45\59\78\212\54"));v149.Size=UDim2.new(0,209 -129 ,0 -0 ,1 + 19 );v149.Position=UDim2.new(0 -0 ,4 + 6 ,0 + 0 ,36);v149.BackgroundColor3=Color3.fromRGB(89 -59 ,150,140 + 115 );v149.BackgroundTransparency=0.3 -0 ;v149.Text="";v149.AutoButtonColor=false;v149.Parent=v65;local v157=Instance.new(v7("\37\127\160\132\148\32\168\226","\144\112\54\227\235\230\78\205"));v157.CornerRadius=UDim.new(0 + 0 ,6);v157.Parent=v149;local v160=Instance.new(v7("\135\45\23\232\252\90\177\45\3","\59\211\72\111\156\176"));v160.Size=UDim2.new(1 + 0 ,0 + 0 ,1 + 0 ,0 + 0 );v160.BackgroundTransparency=1;v160.Text=v7("\122\162\194\0\20\199\204\3","\77\46\231\131");v160.TextColor3=Color3.fromRGB(688 -(153 + 280) ,255,736 -481 );v160.TextSize=9 + 0 ;v160.Font=Enum.Font.GothamBold;v160.Parent=v149;local v168=Instance.new(v7("\142\81\174\84\152\65\162\84\181\90","\32\218\52\214"));v168.Size=UDim2.new(0 + 0 ,42 + 38 ,0 + 0 ,15 + 5 );v168.Position=UDim2.new(0 -0 ,59 + 36 ,667 -(89 + 578) ,36);v168.BackgroundColor3=Color3.fromRGB(30,108 + 42 ,529 -274 );v168.BackgroundTransparency=1049.3 -(572 + 477) ;v168.Text="";v168.AutoButtonColor=false;v168.Parent=v65;local v176=Instance.new(v7("\123\62\18\167\227\190\64\72","\58\46\119\81\200\145\208\37"));v176.CornerRadius=UDim.new(0 + 0 ,4 + 2 );v176.Parent=v168;local v179=Instance.new(v7("\31\137\40\184\133\188\52\46\128","\86\75\236\80\204\201\221"));v179.Size=UDim2.new(1 + 0 ,86 -(84 + 2) ,1 -0 ,0);v179.BackgroundTransparency=1 + 0 ;v179.Text=v7("\69\96\91\169\164\203\93\111","\235\18\33\23\229\158");v179.TextColor3=Color3.fromRGB(255,255,1097 -(497 + 345) );v179.TextSize=9;v179.Font=Enum.Font.GothamBold;v179.Parent=v168;local v187=Instance.new(v7("\100\191\217\175\124\187\195\190\92","\219\48\218\161"));v187.Size=UDim2.new(0,2 + 48 ,0 + 0 ,1345 -(605 + 728) );v187.Position=UDim2.new(0 + 0 ,277 -152 ,0 + 0 ,81 -59 );v187.BackgroundTransparency=1 + 0 ;v187.Text=v7("\215\67\95\97","\128\132\17\28\41\187\47");v187.TextColor3=Color3.fromRGB(706 -451 ,193 + 62 ,489 -(457 + 32) );v187.TextSize=4 + 4 ;v187.Font=Enum.Font.GothamBold;v187.TextXAlignment=Enum.TextXAlignment.Right;v187.Parent=v65;local v198=false;local v199=nil;local v200=nil;local v201=nil;local function v202(v258) local v259=0;local v260;while true do if (v259==(1402 -(832 + 570))) then v260=v258.Position-v200 ;v65.Position=UDim2.new(v201.X.Scale,v201.X.Offset + v260.X ,v201.Y.Scale,v201.Y.Offset + v260.Y );break;end end end v65.InputBegan:Connect(function(v261) if ((v261.UserInputType==Enum.UserInputType.MouseButton1) or (v261.UserInputType==Enum.UserInputType.Touch)) then local v279=0;local v280;while true do if (v279==(0 + 0)) then v280=0 + 0 ;while true do if (v280==(0 -0)) then v198=true;v200=v261.Position;v280=1 + 0 ;end if (v280==(797 -(588 + 208))) then v201=v65.Position;v261.Changed:Connect(function() if (v261.UserInputState==Enum.UserInputState.End) then v198=false;end end);break;end end break;end end end end);v65.InputChanged:Connect(function(v262) if ((v262.UserInputType==Enum.UserInputType.MouseMovement) or (v262.UserInputType==Enum.UserInputType.Touch)) then v199=v262;end end);v15.InputChanged:Connect(function(v263) if ((v263==v199) and v198) then v202(v263);end end);local function v203() if v21.TeamCheck then local v281=0 -0 ;while true do if (v281==(1800 -(884 + 916))) then v149.BackgroundColor3=Color3.fromRGB(30,314 -164 ,255);v160.Text=v7("\53\23\39\23\7\65\29\40","\61\97\82\102\90");break;end end else local v282=0 + 0 ;while true do if (v282==(653 -(232 + 421))) then v149.BackgroundColor3=Color3.fromRGB(2144 -(1569 + 320) ,50,50);v160.Text=v7("\152\11\138\102\157\23\49\47\138","\105\204\78\203\43\167\55\126");break;end end end end local function v204() if v21.Wallbang then local v283=0 + 0 ;local v284;while true do if (v283==(0 + 0)) then v284=0 -0 ;while true do if (v284==(605 -(316 + 289))) then v168.BackgroundColor3=Color3.fromRGB(78 -48 ,150,255);v179.Text=v7("\146\139\15\50\73\68\232\127","\49\197\202\67\126\115\100\167");break;end end break;end end else v168.BackgroundColor3=Color3.fromRGB(255,50,3 + 47 );v179.Text=v7("\0\122\243\5\218\22\113\17\125","\62\87\59\191\73\224\54");end end v121.MouseButton1Click:Connect(function() local v264=1453 -(666 + 787) ;while true do if (v264==(426 -(360 + 65))) then if v27 then v31.Color=v21.Circle.Color.Searching;else v31.Color=v21.Circle.Color.Disabled;end v22=nil;v264=2 + 0 ;end if ((257 -(79 + 175))==v264) then v30=v7("\212\39\219\251\196\42\211\231\192","\169\135\98\154");v25=v21.FOV.Search;v264=4;end if (4==v264) then HUD:UpdateStatus(v27,v30,v25);break;end if (v264==2) then v23=nil;v24=nil;v264=4 -1 ;end if (v264==0) then v27= not v27;v31.Visible=v27;v264=1 + 0 ;end end end);v149.MouseButton1Click:Connect(function() local v265=0;while true do if ((2 -1)==v265) then v22=nil;v23=nil;v265=3 -1 ;end if (v265==(901 -(503 + 396))) then v24=nil;break;end if (v265==(181 -(92 + 89))) then v21.TeamCheck= not v21.TeamCheck;v203();v265=1 -0 ;end end end);v168.MouseButton1Click:Connect(function() local v266=0;while true do if ((1 + 0)==v266) then v22=nil;v23=nil;v266=2;end if (v266==2) then v24=nil;break;end if (v266==(0 + 0)) then v21.Wallbang= not v21.Wallbang;v204();v266=1;end end end);v203();v204();v65.Position=UDim2.new(3 -2 , -(28 + 172),0 -0 , -(53 + 7));wait(0.1);local v205=v17:Create(v65,TweenInfo.new(0.3 + 0 ,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{[v7("\251\120\55\93\233\58\199\197","\168\171\23\68\52\157\83")]=UDim2.new(2 -1 , -(25 + 175),0 -0 ,1259 -(485 + 759) )});v205:Play();return {[v7("\217\112\252\163\3\63\134\249\116","\231\148\17\149\205\69\77")]=v65,[v7("\180\168\192\252\91\250\162\178\211\239\88\241","\159\224\199\167\155\55")]=v121,[v7("\195\252\59\213\251\246\8\215\239\231","\178\151\147\92")]=v132,[v7("\191\233\77\38\7\95\94\131\233","\26\236\157\44\82\114\44")]=v140,[v7("\7\33\209\94\30\43\205\79","\59\74\78\181")]=v187,[v7("\16\193\94\91\167\32\226\78\91\167\48\194","\211\69\177\58\58")]=function(v267,v268,v269,v270) if v268 then local v287=0 -0 ;while true do if (v287==(1189 -(442 + 747))) then v267.ToggleButton.BackgroundColor3=Color3.fromRGB(1165 -(832 + 303) ,150,1201 -(88 + 858) );v267.StatusDot.BackgroundColor3=Color3.fromRGB(0,78 + 177 ,0);v287=1 + 0 ;end if (v287==1) then if (v269==v7("\155\202\90\222\204\239","\171\215\133\25\149\137")) then v267.ModeText.Text=v7("\205\231\17\209","\34\129\168\82\154\143\80\156");v267.ModeText.TextColor3=v21.Circle.Color.Locked;elseif (v269==v7("\178\147\31\39\106\111\167\162","\233\229\210\83\107\40\46")) then v267.ModeText.Text=v7("\246\99\30\250","\101\161\34\82\182");v267.ModeText.TextColor3=v21.Circle.Color.Wallbang;else local v405=0;while true do if (v405==(0 + 0)) then v267.ModeText.Text=v7("\219\63\122\214","\78\136\109\57\158\187\130\226");v267.ModeText.TextColor3=v21.Circle.Color.Searching;break;end end end break;end end else local v288=789 -(766 + 23) ;while true do if (v288==(4 -3)) then v267.ModeText.Text=v7("\17\25\223","\145\94\95\153");v267.ModeText.TextColor3=Color3.fromRGB(348 -93 ,50,50);break;end if (v288==(0 -0)) then v267.ToggleButton.BackgroundColor3=Color3.fromRGB(255,169 -119 ,50);v267.StatusDot.BackgroundColor3=Color3.fromRGB(1328 -(1036 + 37) ,36 + 14 ,50);v288=1 -0 ;end end end end};end local v45=v44();local function v46(v206) if v206.Team then return v206.Team.Name;else return v7("\211\194\84\225\75\182\240","\215\157\173\116\181\46");end end local function v47(v207) local v208=0 + 0 ;local v209;while true do if (v208==0) then v209=0;while true do if (v209==(1480 -(641 + 839))) then if (v207.Character and v207.Character:FindFirstChild(v7("\29\161\134\243\212\58\189\143","\186\85\212\235\146")) and (v207.Character.Humanoid.Health>(913 -(910 + 3)))) then return true;end return false;end end break;end end end local function v48(v210) local v211=0 -0 ;local v212;while true do if (v211==(1684 -(1466 + 218))) then if ( not v210 or  not v210.Parent) then return false;end v212=v210.Parent:FindFirstChild(v7("\234\148\27\255\55\225\81\198","\56\162\225\118\158\89\142"));v211=1 + 0 ;end if (v211==(1149 -(556 + 592))) then local v289=0;local v290;while true do if (v289==0) then v290=0 + 0 ;while true do if (v290==(808 -(329 + 479))) then if (v212 and (v212.Health>0)) then return true;end return false;end end break;end end end end end local function v49(v213) local v214=854 -(174 + 680) ;local v215;while true do if (v214==(3 -2)) then return nil;end if (v214==0) then local v291=0;while true do if (v291==(1 -0)) then v214=1 + 0 ;break;end if (v291==(739 -(396 + 343))) then v215={v21.AimPart,v7("\116\0\193\171","\184\60\101\160\207\66"),v7("\25\151\113\189\63\141\117\184\3\141\115\168\1\131\110\168","\220\81\226\28")};for v364=1390 -(135 + 1254) , #v215 do local v365=0;local v366;while true do if (v365==0) then v366=v213:FindFirstChild(v215[v364]);if v366 then return v366;end break;end end end v291=1;end end end end end local function v50(v216) local v217=0;local v218;local v219;local v220;local v221;local v222;while true do if (v217==0) then if  not v216 then return false;end v218=v20.CFrame.Position;v217=3 -2 ;end if (v217==(9 -7)) then local v293=0 + 0 ;while true do if (v293==(1528 -(389 + 1138))) then v217=577 -(102 + 472) ;break;end if (v293==(0 + 0)) then v221,v222=v16:FindPartOnRayWithIgnoreList(v220,{v19.Character,v20});if v221 then local v374=0 + 0 ;local v375;local v376;local v377;while true do if (v374==(1545 -(320 + 1225))) then local v409=0;while true do if (v409==(1 -0)) then v374=1 + 0 ;break;end if (v409==(1464 -(157 + 1307))) then v375=1859 -(821 + 1038) ;v376=nil;v409=2 -1 ;end end end if (v374==1) then v377=nil;while true do local v412=0 + 0 ;local v413;while true do if (v412==0) then v413=0 -0 ;while true do if (v413==(0 + 0)) then if (v375==(2 -1)) then return v377>=(v376-(1031 -(834 + 192))) ;end if (v375==(0 + 0)) then local v428=0 + 0 ;while true do if ((0 + 0)==v428) then v376=(v216.Position-v218).Magnitude;v377=(v222-v218).Magnitude;v428=1;end if (v428==(1 -0)) then v375=305 -(300 + 4) ;break;end end end break;end end break;end end end break;end end end v293=1 + 0 ;end end end if (v217==(7 -4)) then return true;end if (v217==(363 -(112 + 250))) then v219=(v216.Position-v218).unit;v220=Ray.new(v218,v219 * v21.MaxDistance );v217=1 + 1 ;end end end local function v51(v223,v224,v225) local v226=0 -0 ;local v227;local v228;local v229;local v230;local v231;local v232;while true do if (v226==2) then if (v223.Character and v223.Character:FindFirstChild(v7("\59\192\143\250\228\200\26\209\176\244\229\211\35\212\144\239","\167\115\181\226\155\138"))) then local v323=0 + 0 ;local v324;local v325;local v326;local v327;local v328;while true do if (v323==3) then v227=v227 + (v328 * (v21.Weights.EnemyAiming/(52 + 48))) ;break;end if (v323==(2 + 0)) then v328=0 + 0 ;if (v327>(0.7 + 0)) then v328=1514 -(1001 + 413) ;elseif (v327>(0.3 -0)) then v328=932 -(244 + 638) ;end v323=3;end if (v323==(693 -(627 + 66))) then v324=v223.Character.HumanoidRootPart;v325=v324.CFrame.LookVector;v323=2 -1 ;end if (v323==(603 -(512 + 90))) then v326=(v19.Character.HumanoidRootPart.Position-v324.Position).unit;v327=v325:Dot(v326);v323=2;end end end v232=50;if (v224.Name==v21.AimPart) then v232=2006 -(1665 + 241) ;end v226=720 -(373 + 344) ;end if ((2 + 1)==v226) then local v295=0 + 0 ;while true do if (0==v295) then v227=v227 + (v232 * (v21.Weights.BodyPart/100)) ;if v225 then v227=v227 + (79 -49) ;end v295=1 -0 ;end if ((1100 -(35 + 1064))==v295) then return math.clamp(v227,0,100);end end end if (v226==1) then v230=(v229-v228).Magnitude;v231=((v21.MaxDistance-v230)/v21.MaxDistance) * (73 + 27) ;v227=v227 + (v231 * (v21.Weights.Distance/(213 -113))) ;v226=2;end if (v226==(0 + 0)) then v227=0;v228=v20.CFrame.Position;v229=v224.Position;v226=1237 -(298 + 938) ;end end end local function v52(v233,v234) local v235=1259 -(233 + 1026) ;local v236;local v237;local v238;while true do if (v235==2) then return v238<=v234 ;end if (v235==(1666 -(636 + 1030))) then if  not v233 then return false;end v236,v237=v20:WorldToViewportPoint(v233.Position);v235=1 + 0 ;end if (v235==1) then if  not v237 then return false;end v238=(Vector2.new(v236.X,v236.Y) -v31.Position).Magnitude;v235=2 + 0 ;end end end local function v53() local v239=0 + 0 ;while true do if (v239==0) then if (v30==v7("\206\13\196\119\94\85","\166\130\66\135\60\27\17")) then local v329=0 + 0 ;while true do if (v329==(221 -(55 + 166))) then v26=v21.FOV.Locked;v31.Color=v21.Circle.Color.Locked;break;end end elseif (v30==v7("\115\107\226\89\18\101\100\233","\80\36\42\174\21")) then local v367=0 + 0 ;local v368;while true do if (v367==(0 + 0)) then v368=0 -0 ;while true do if (v368==(297 -(36 + 261))) then v26=v21.FOV.Wallbang;v31.Color=v21.Circle.Color.Wallbang;break;end end break;end end else local v369=0 -0 ;local v370;while true do if (v369==(1368 -(34 + 1334))) then v370=0 + 0 ;while true do if ((0 + 0)==v370) then v26=v21.FOV.Search;v31.Color=v21.Circle.Color.Searching;break;end end break;end end end v25=v25 + ((v26-v25) * v21.FOV.TransitionSpeed) ;v239=1284 -(1035 + 248) ;end if (v239==(22 -(20 + 1))) then v31.Radius=v25;break;end end end local function v54() local v240={};local v241={};local v242=v46(v19);local v243=Vector2.new(v31.Position.X,v31.Position.Y);local v244=v13:GetPlayers();for v271=1, #v244 do local v272=v244[v271];if ((v272~=v19) and v47(v272)) then local v301=0;local v302;local v303;while true do if (v301==(1 + 0)) then if v21.TeamCheck then if ((v242~=v7("\96\31\119\78\75\17\58","\26\46\112\87")) and (v302~=v7("\151\44\235\64\186\190\72","\212\217\67\203\20\223\223\37")) and (v242==v302)) then v303=false;end end if v303 then local v384=319 -(134 + 185) ;local v385;while true do if (v384==0) then v385=v49(v272.Character);if v385 then local v423=1133 -(549 + 584) ;local v424;local v425;local v426;while true do if (v423==(685 -(314 + 371))) then v424=0 -0 ;v425=nil;v423=969 -(478 + 490) ;end if (v423==(1 + 0)) then v426=nil;while true do if (v424==(1172 -(786 + 386))) then v425,v426=v20:WorldToViewportPoint(v385.Position);if v426 then local v429=0 -0 ;local v430;local v431;while true do if ((1379 -(1055 + 324))==v429) then v430=(Vector2.new(v425.X,v425.Y) -v243).Magnitude;v431=(v385.Position-v20.CFrame.Position).Magnitude;v429=1341 -(1093 + 247) ;end if (v429==1) then if ((v431<=v21.MaxDistance) and (v430<=v25)) then local v436=0 + 0 ;local v437;while true do if (v436==(0 + 0)) then v437=v50(v385);if ( not v21.Wallbang and  not v437) then else local v438=v51(v272,v385,v437);local v439={[v7("\138\140\186\198","\178\218\237\200")]=v385,[v7("\134\185\231\201\179\167","\176\214\213\134")]=v272,[v7("\196\191\191\219\186\95\77\237","\57\148\205\214\180\200\54")]=v438,[v7("\54\244\38\32\119\28\254\48","\22\114\157\85\84")]=v431,[v7("\224\194\0\208\92\248\171\193\255\28\231\84\228\171\200\206","\200\164\171\115\164\61\150")]=v430,[v7("\150\245\16\105\172\141","\227\222\148\99\37")]=v437,[v7("\0\81\64\243\252\61\98\93\229","\153\83\50\50\150")]=Vector2.new(v425.X,v425.Y)};table.insert(v241,v439);if v437 then table.insert(v240,v439);end end break;end end end break;end end end break;end end break;end end end break;end end end break;end if (v301==(0 -0)) then local v356=0 -0 ;local v357;while true do if ((0 -0)==v356) then v357=0 -0 ;while true do if (v357==(1 + 0)) then v301=3 -2 ;break;end if (v357==(0 -0)) then v302=v46(v272);v303=true;v357=1;end end break;end end end end end end if ( #v240>0) then local v275=0;local v276;while true do if ((0 + 0)==v275) then table.sort(v240,function(v358,v359) return v358.Priority>v359.Priority ;end);v276=v240[2 -1 ];v275=689 -(364 + 324) ;end if (v275==(2 -1)) then for v360=1, #v240 do local v361=0;local v362;while true do if (0==v361) then v362=v240[v360];if (v362.Priority>(v276.Priority-(23 -13))) then if (v362.DistanceToCircle<v276.DistanceToCircle) then v276=v362;end end break;end end end v30=v7("\113\89\80\55\86\143","\45\61\22\19\124\19\203");v275=2;end if (v275==(1 + 1)) then return v276.Part,v276;end end elseif ( #v241>0) then local v316=0;local v317;while true do if (v316==(0 -0)) then v317=0 -0 ;while true do if (v317==1) then return v241[2 -1 ].Part,v241[1269 -(1249 + 19) ];end if ((0 + 0)==v317) then table.sort(v241,function(v410,v411) return v410.Priority>v411.Priority ;end);v30=v7("\246\51\33\217\32\81\151\230","\217\161\114\109\149\98\16");v317=1;end end break;end end end v30=v7("\33\5\25\78\159\92\59\14\31","\20\114\64\88\28\220");return nil,nil;end local function v55(v245) local v246=0;local v247;while true do if (1==v246) then v247=Vector3.new(((math.random() * (7 -5)) -1) * v21.Humanizer.AimError ,((math.random() * 2) -1) * v21.Humanizer.AimError ,((math.random() * (1088 -(686 + 400))) -1) * v21.Humanizer.AimError );if (math.random(1 + 0 ,329 -(73 + 156) )<=v21.Humanizer.BreakChance) then return nil;end v246=1 + 1 ;end if (v246==(813 -(721 + 90))) then return v245 + v247 ;end if (v246==0) then if  not v21.Humanizer.Enabled then return v245;end if (v29>0) then local v331=0 + 0 ;while true do if ((0 -0)==v331) then local v386=470 -(224 + 246) ;while true do if (v386==(0 -0)) then v29=v29-1 ;return nil;end end end end end v246=1 -0 ;end end end local function v56(v248) local v249=0 + 0 ;local v250;while true do if (v249==0) then local v304=0;local v305;while true do if (v304==0) then v305=0 + 0 ;while true do if ((0 + 0)==v305) then local v401=0 -0 ;while true do if ((0 -0)==v401) then v250=v21.BaseLerpSpeed + ((v248/v21.MaxDistance) * (513.3 -(203 + 310))) ;return math.clamp(v250,0.1,1993.4 -(1238 + 755) );end end end end break;end end end end end local function v57() local v251=0;local v252;while true do local v273=0 + 0 ;while true do if (v273==(1534 -(709 + 825))) then if (1==v251) then if  not v52(v22,v21.FOV.Locked) then return false;end v252=v50(v22);v251=3 -1 ;end if (v251==(0 -0)) then if ( not v22 or  not v23) then return false;end if  not v48(v22) then return false;end v251=865 -(196 + 668) ;end v273=1;end if (v273==(3 -2)) then if (v251==(5 -2)) then return true;end if ((835 -(171 + 662))==v251) then v23.HasLOS=v252;if v252 then v30=v7("\29\46\241\159\221\244","\221\81\97\178\212\152\176");else local v387=0;while true do if (v387==0) then if  not v21.Wallbang then return false;end v30=v7("\250\198\49\215\56\236\201\58","\122\173\135\125\155");break;end end end v251=3;end break;end end end end v15.InputBegan:Connect(function(v253) if (v253.KeyCode==v21.ToggleKey) then v27= not v27;v31.Visible=v27;if v27 then v31.Color=v21.Circle.Color.Searching;else v31.Color=v21.Circle.Color.Disabled;end v22=nil;v23=nil;v24=nil;v30=v7("\183\228\33\139\28\25\225\170\230","\168\228\161\96\217\95\81");v25=v21.FOV.Search;v45:UpdateStatus(v27,v30,v25);end end);v14.RenderStepped:Connect(function() local v254=0;local v255;while true do if (v254==2) then v28=v28 + 1 ;if (v28>=v21.UpdateRate) then local v332=93 -(4 + 89) ;while true do if (v332==0) then v28=0;if  not v22 then local v406=0 -0 ;local v407;local v408;while true do if (v406==(0 + 0)) then v407,v408=v54();if v407 then local v427=0 -0 ;while true do if (1==v427) then v24=nil;v29=math.random(v21.Humanizer.RandomDelay[1],v21.Humanizer.RandomDelay[1 + 1 ]);break;end if (v427==(1486 -(35 + 1451))) then v22=v407;v23=v408;v427=1454 -(28 + 1425) ;end end end break;end end end break;end end end v254=1996 -(941 + 1052) ;end if (v254==0) then if  not v27 then local v333=0;while true do if ((0 + 0)==v333) then local v388=0;while true do if (v388==(1514 -(822 + 692))) then v45:UpdateStatus(false,v30,v25);return;end end end end end v255=v20.ViewportSize;v254=1;end if (v254==(3 -0)) then v53();v45:UpdateStatus(v27,v30,v25);v254=4;end if (v254==(2 + 2)) then if (v22 and v23) then local v334=297 -(45 + 252) ;local v335;local v336;local v337;local v338;local v339;local v340;while true do if ((1 + 0)==v334) then local v389=0;local v390;while true do if (v389==(0 + 0)) then v390=0;while true do if (v390==(0 -0)) then v337=v55(v336);if  not v337 then return;end v390=434 -(114 + 319) ;end if (v390==(1 -0)) then v334=2 -0 ;break;end end break;end end end if ((2 + 1)==v334) then v339=v56(v338);v340=(v24-v335).unit;v334=5 -1 ;end if (v334==2) then if  not v24 then v24=v337;else v24=v24:Lerp(v337,0.7 -0 );end v338=(v336-v335).Magnitude;v334=1966 -(556 + 1407) ;end if (v334==(1206 -(741 + 465))) then v335=v20.CFrame.Position;v336=v22.Position;v334=466 -(170 + 295) ;end if (v334==(3 + 1)) then v20.CFrame=v20.CFrame:Lerp(CFrame.new(v335,v335 + v340 ),v339);break;end end end break;end if (v254==(1 + 0)) then v31.Position=Vector2.new(v255.X/(4 -2) ,v255.Y/(2 + 0) );if (v22 and  not v57()) then local v341=0 + 0 ;while true do if (v341==1) then v24=nil;v30=v7("\232\244\15\110\12\127\242\255\9","\55\187\177\78\60\79");break;end if (v341==0) then v22=nil;v23=nil;v341=1;end end end v254=2 + 0 ;end end end);v19.CharacterAdded:Connect(function() local v256=0;while true do if (2==v256) then v25=v21.FOV.Search;break;end if (v256==(1231 -(957 + 273))) then v24=nil;v30=v7("\30\235\126\217\101\231\169\3\233","\224\77\174\63\139\38\175");v256=1 + 1 ;end if (v256==(0 + 0)) then v22=nil;v23=nil;v256=1;end end end);end;
+-- [[ 🛡️ NGL INTERNAL PROTECTION ]] --
+return function(GATE_PASS) 
+
+    local INTERNAL_SECRET = "NGL_ADMIN_7788_SECURE" 
+
+ 
+    if GATE_PASS ~= INTERNAL_SECRET then 
+        warn("!! UNAUTHORIZED ACCESS !!")
+        return 
+    end
+
+    -- --------------------------------------------------------
+    -- [local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local LocalPlayer = Players.LocalPlayer
+local Camera = Workspace.CurrentCamera
+
+local Settings = {
+    AimPart = "Head",
+    MaxDistance = 1000,
+    BaseLerpSpeed = 0.35,
+    TeamCheck = true,
+    Wallbang = true,
+    FOV = {
+        Search = 120,
+        Locked = 40,
+        Wallbang = 120,
+        TransitionSpeed = 0.15,
+    },
+    Weights = {
+        Distance = 40,
+        EnemyAiming = 30,
+        BodyPart = 20,
+        RecentDamage = 10,
+    },
+    Humanizer = {
+        Enabled = true,
+        AimError = 0.01,
+        RandomDelay = {0, 1},
+        BreakChance = 5,
+    },
+    Circle = {
+        Color = {
+            Searching = Color3.fromRGB(255, 255, 0),
+            Locked = Color3.fromRGB(0, 255, 0),
+            Wallbang = Color3.fromRGB(255, 165, 0),
+            Disabled = Color3.fromRGB(255, 0, 0),
+        },
+        Transparency = 0.5,
+        Thickness = 2,
+        Filled = false,
+        NumSides = 60,
+    },
+    ToggleKey = Enum.KeyCode.X,
+    UpdateRate = 2,
+}
+
+local CurrentTarget = nil
+local CurrentTargetData = nil
+local SmoothTargetPosition = nil
+local CurrentFOV = Settings.FOV.Search
+local TargetFOV = Settings.FOV.Search
+local AimbotEnabled = true
+local FrameCounter = 0
+local HumanizerDelay = 0
+local CurrentMode = "SEARCHING"
+
+local Circle = Drawing.new("Circle")
+Circle.Visible = true
+Circle.Radius = CurrentFOV
+Circle.Color = Settings.Circle.Color.Searching
+Circle.Transparency = Settings.Circle.Transparency
+Circle.Thickness = Settings.Circle.Thickness
+Circle.Filled = Settings.Circle.Filled
+Circle.NumSides = Settings.Circle.NumSides
+
+-- ===== GUI SECTION - ปรับปรุงตาม Patch Update =====
+local function CreateModernGUI()
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Name = "NoirGameLab_HUD"
+    ScreenGui.ResetOnSpawn = false
+    ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    ScreenGui.DisplayOrder = 999
+    
+    if syn and syn.protect_gui then
+        syn.protect_gui(ScreenGui)
+        ScreenGui.Parent = CoreGui
+    elseif CoreGui then
+        ScreenGui.Parent = CoreGui
+    else
+        ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+    end
+
+    -- [PATCH] ความสูง 65 (จากเดิม 90) / กว้าง 185
+    local MainFrame = Instance.new("Frame")
+    MainFrame.Size = UDim2.new(0, 185, 0, 65)
+    MainFrame.Position = UDim2.new(1, -200, 0, 15)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(10, 10, 15)
+    MainFrame.BackgroundTransparency = 0.1
+    MainFrame.BorderSizePixel = 0
+    MainFrame.Parent = ScreenGui
+    
+    local FrameCorner = Instance.new("UICorner")
+    FrameCorner.CornerRadius = UDim.new(0, 8)
+    FrameCorner.Parent = MainFrame
+    
+    local FrameStroke = Instance.new("UIStroke")
+    FrameStroke.Thickness = 1
+    FrameStroke.Color = Color3.fromRGB(30, 150, 255)
+    FrameStroke.Transparency = 0.6
+    FrameStroke.Parent = MainFrame
+
+    -- Logo
+    local Logo = Instance.new("Frame")
+    Logo.Size = UDim2.new(0, 20, 0, 20)
+    Logo.Position = UDim2.new(0, 6, 0, 6)
+    Logo.BackgroundColor3 = Color3.fromRGB(255, 140, 0)
+    Logo.BackgroundTransparency = 0.2
+    Logo.Parent = MainFrame
+    
+    local LogoCorner = Instance.new("UICorner")
+    LogoCorner.CornerRadius = UDim.new(0, 5)
+    LogoCorner.Parent = Logo
+    
+    local LogoText = Instance.new("TextLabel")
+    LogoText.Size = UDim2.new(1, 0, 1, 0)
+    LogoText.BackgroundTransparency = 1
+    LogoText.Text = "S+"
+    LogoText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    LogoText.TextSize = 12
+    LogoText.Font = Enum.Font.GothamBlack
+    LogoText.Parent = Logo
+
+    local Title = Instance.new("TextLabel")
+    Title.Size = UDim2.new(0, 100, 0, 14)
+    Title.Position = UDim2.new(0, 30, 0, 6)
+    Title.BackgroundTransparency = 1
+    Title.Text = "NGL SYSTEM AIM"
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextSize = 9
+    Title.Font = Enum.Font.GothamBold
+    Title.TextXAlignment = Enum.TextXAlignment.Left
+    Title.Parent = MainFrame
+
+    local Version = Instance.new("TextLabel")
+    Version.Size = UDim2.new(0, 70, 0, 10)
+    Version.Position = UDim2.new(0, 30, 0, 22)
+    Version.BackgroundTransparency = 1
+    Version.Text = "V5 | HELP TO BEST"
+    Version.TextColor3 = Color3.fromRGB(110, 110, 110)
+    Version.TextSize = 9
+    Version.Font = Enum.Font.Gotham
+    Version.TextXAlignment = Enum.TextXAlignment.Left
+    Version.Parent = MainFrame
+    
+    -- ===== [PATCH] ปุ่ม X - ขยับไปทางซ้าย =====
+    local ToggleButton = Instance.new("TextButton")
+    ToggleButton.Size = UDim2.new(0, 44, 0, 20)
+    ToggleButton.Position = UDim2.new(0, 115, 0, 6)  -- จาก 128 เป็น 115
+    ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+    ToggleButton.BackgroundTransparency = 0.3
+    ToggleButton.Text = ""
+    ToggleButton.AutoButtonColor = false
+    ToggleButton.Parent = MainFrame
+    
+    local ToggleCorner = Instance.new("UICorner")
+    ToggleCorner.CornerRadius = UDim.new(0, 6)
+    ToggleCorner.Parent = ToggleButton
+
+    local ToggleText = Instance.new("TextLabel")
+    ToggleText.Size = UDim2.new(1, 0, 1, 0)
+    ToggleText.BackgroundTransparency = 1
+    ToggleText.Text = "X"
+    ToggleText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    ToggleText.TextSize = 11
+    ToggleText.Font = Enum.Font.GothamBold
+    ToggleText.Parent = ToggleButton
+
+    -- ===== [PATCH] จุดสถานะ - ขยับไปขวาสุด =====
+    local StatusDot = Instance.new("Frame")
+    StatusDot.Size = UDim2.new(0, 8, 0, 8)
+    StatusDot.Position = UDim2.new(0, 168, 0, 12)  -- จาก 162,6 เป็น 168,12
+    StatusDot.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    StatusDot.BorderSizePixel = 0
+    StatusDot.Parent = MainFrame
+    
+    local DotCorner = Instance.new("UICorner")
+    DotCorner.CornerRadius = UDim.new(1, 0)
+    DotCorner.Parent = StatusDot
+
+    -- ===== ปุ่ม Team Check =====
+    local TeamCheckButton = Instance.new("TextButton")
+    TeamCheckButton.Size = UDim2.new(0, 80, 0, 20)
+    TeamCheckButton.Position = UDim2.new(0, 10, 0, 36)
+    TeamCheckButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+    TeamCheckButton.BackgroundTransparency = 0.3
+    TeamCheckButton.Text = ""
+    TeamCheckButton.AutoButtonColor = false
+    TeamCheckButton.Parent = MainFrame
+    
+    local TeamCheckCorner = Instance.new("UICorner")
+    TeamCheckCorner.CornerRadius = UDim.new(0, 6)
+    TeamCheckCorner.Parent = TeamCheckButton
+
+    local TeamCheckText = Instance.new("TextLabel")
+    TeamCheckText.Size = UDim2.new(1, 0, 1, 0)
+    TeamCheckText.BackgroundTransparency = 1
+    TeamCheckText.Text = "TEAM: ON"
+    TeamCheckText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TeamCheckText.TextSize = 9
+    TeamCheckText.Font = Enum.Font.GothamBold
+    TeamCheckText.Parent = TeamCheckButton
+
+    -- ===== ปุ่ม Wall Check =====
+    local WallCheckButton = Instance.new("TextButton")
+    WallCheckButton.Size = UDim2.new(0, 80, 0, 20)
+    WallCheckButton.Position = UDim2.new(0, 95, 0, 36)
+    WallCheckButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+    WallCheckButton.BackgroundTransparency = 0.3
+    WallCheckButton.Text = ""
+    WallCheckButton.AutoButtonColor = false
+    WallCheckButton.Parent = MainFrame
+    
+    local WallCheckCorner = Instance.new("UICorner")
+    WallCheckCorner.CornerRadius = UDim.new(0, 6)
+    WallCheckCorner.Parent = WallCheckButton
+
+    local WallCheckText = Instance.new("TextLabel")
+    WallCheckText.Size = UDim2.new(1, 0, 1, 0)
+    WallCheckText.BackgroundTransparency = 1
+    WallCheckText.Text = "WALL: ON"
+    WallCheckText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    WallCheckText.TextSize = 9
+    WallCheckText.Font = Enum.Font.GothamBold
+    WallCheckText.Parent = WallCheckButton
+
+    -- ===== [PATCH] ModeText - ย้ายขึ้นมาบรรทัดบน =====
+    local ModeText = Instance.new("TextLabel")
+    ModeText.Size = UDim2.new(0, 50, 0, 12)
+    ModeText.Position = UDim2.new(0, 125, 0, 22)  -- จาก 70 เป็น 22
+    ModeText.BackgroundTransparency = 1
+    ModeText.Text = "SRCH"
+    ModeText.TextColor3 = Color3.fromRGB(255, 255, 0)
+    ModeText.TextSize = 8
+    ModeText.Font = Enum.Font.GothamBold
+    ModeText.TextXAlignment = Enum.TextXAlignment.Right
+    ModeText.Parent = MainFrame
+
+    -- ===== ระบบลาก GUI =====
+    local dragging = false
+    local dragInput = nil
+    local dragStart = nil
+    local startPos = nil
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        MainFrame.Position = UDim2.new(
+            startPos.X.Scale, 
+            startPos.X.Offset + delta.X,
+            startPos.Y.Scale, 
+            startPos.Y.Offset + delta.Y
+        )
+    end
+
+    MainFrame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or 
+           input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = MainFrame.Position
+            
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    MainFrame.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or 
+           input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+
+    -- ===== ฟังก์ชันอัปเดตปุ่ม =====
+    local function UpdateTeamButton()
+        if Settings.TeamCheck then
+            TeamCheckButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+            TeamCheckText.Text = "TEAM: ON"
+        else
+            TeamCheckButton.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+            TeamCheckText.Text = "TEAM: OFF"
+        end
+    end
+    
+    local function UpdateWallButton()
+        if Settings.Wallbang then
+            WallCheckButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+            WallCheckText.Text = "WALL: ON"
+        else
+            WallCheckButton.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+            WallCheckText.Text = "WALL: OFF"
+        end
+    end
+
+    -- Event ปุ่ม
+    ToggleButton.MouseButton1Click:Connect(function()
+        AimbotEnabled = not AimbotEnabled
+        Circle.Visible = AimbotEnabled
+        Circle.Color = AimbotEnabled and Settings.Circle.Color.Searching or Settings.Circle.Color.Disabled
+        CurrentTarget = nil
+        CurrentTargetData = nil
+        SmoothTargetPosition = nil
+        CurrentMode = "SEARCHING"
+        CurrentFOV = Settings.FOV.Search
+        HUD:UpdateStatus(AimbotEnabled, CurrentMode, CurrentFOV)
+    end)
+
+    TeamCheckButton.MouseButton1Click:Connect(function()
+        Settings.TeamCheck = not Settings.TeamCheck
+        UpdateTeamButton()
+        CurrentTarget = nil
+        CurrentTargetData = nil
+        SmoothTargetPosition = nil
+    end)
+
+    WallCheckButton.MouseButton1Click:Connect(function()
+        Settings.Wallbang = not Settings.Wallbang
+        UpdateWallButton()
+        CurrentTarget = nil
+        CurrentTargetData = nil
+        SmoothTargetPosition = nil
+    end)
+
+    UpdateTeamButton()
+    UpdateWallButton()
+
+    -- แอนิเมชัน
+    MainFrame.Position = UDim2.new(1, -200, 0, -60)
+    task.wait(0.1)
+    local tween = TweenService:Create(MainFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+        Position = UDim2.new(1, -200, 0, 15)
+    })
+    tween:Play()
+
+    return {
+        MainFrame = MainFrame,
+        ToggleButton = ToggleButton,
+        ToggleText = ToggleText,
+        StatusDot = StatusDot,
+        ModeText = ModeText,
+        UpdateStatus = function(self, enabled, mode, fov)
+            if enabled then
+                self.ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 150, 255)
+                self.StatusDot.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+                
+                if mode == "LOCKED" then
+                    self.ModeText.Text = "LOCK"
+                    self.ModeText.TextColor3 = Settings.Circle.Color.Locked
+                elseif mode == "WALLBANG" then
+                    self.ModeText.Text = "WALL"
+                    self.ModeText.TextColor3 = Settings.Circle.Color.Wallbang
+                else
+                    self.ModeText.Text = "SRCH"
+                    self.ModeText.TextColor3 = Settings.Circle.Color.Searching
+                end
+            else
+                self.ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+                self.StatusDot.BackgroundColor3 = Color3.fromRGB(255, 50, 50)
+                self.ModeText.Text = "OFF"
+                self.ModeText.TextColor3 = Color3.fromRGB(255, 50, 50)
+            end
+        end
+    }
+end
+
+local HUD = CreateModernGUI()
+
+-- ส่วนที่เหลือ (ฟังก์ชัน GetBestTarget, HumanizeAim, Main Loop ฯลฯ) เหมือนเดิมทุกประการ
+-- (โค้ดส่วนนี้ไม่มีการเปลี่ยนแปลง ผมขอย่อเพื่อความยาวที่เหมาะสม)
+
+local function GetPlayerTeam(player)
+    return player.Team and player.Team.Name or "No Team"
+end
+
+local function IsAlive(player)
+    return player.Character and 
+           player.Character:FindFirstChild("Humanoid") and 
+           player.Character.Humanoid.Health > 0
+end
+
+local function IsTargetAlive(targetPart)
+    if not targetPart or not targetPart.Parent then return false end
+    local humanoid = targetPart.Parent:FindFirstChild("Humanoid")
+    return humanoid and humanoid.Health > 0
+end
+
+local function GetTargetPart(character)
+    local parts = {Settings.AimPart, "Head", "HumanoidRootPart"}
+    for _, partName in ipairs(parts) do
+        local part = character:FindFirstChild(partName)
+        if part then return part end
+    end
+    return nil
+end
+
+local function HasLineOfSight(targetPart)
+    if not targetPart then return false end
+    
+    local cameraPos = Camera.CFrame.Position
+    local direction = (targetPart.Position - cameraPos).unit
+    local ray = Ray.new(cameraPos, direction * Settings.MaxDistance)
+    local hit, hitPos = Workspace:FindPartOnRayWithIgnoreList(ray, {LocalPlayer.Character, Camera})
+    
+    if hit then
+        local distanceToTarget = (targetPart.Position - cameraPos).Magnitude
+        local distanceToHit = (hitPos - cameraPos).Magnitude
+        return distanceToHit >= distanceToTarget - 5
+    end
+    return true
+end
+
+local function CalculatePriority(player, targetPart, isVisible)
+    local score = 0
+    local cameraPos = Camera.CFrame.Position
+    local targetPos = targetPart.Position
+    
+    local distance = (targetPos - cameraPos).Magnitude
+    local distanceScore = (Settings.MaxDistance - distance) / Settings.MaxDistance * 100
+    score = score + distanceScore * (Settings.Weights.Distance / 100)
+    
+    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+        local root = player.Character.HumanoidRootPart
+        local lookVector = root.CFrame.LookVector
+        local toPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - root.Position).unit
+        local dot = lookVector:Dot(toPlayer)
+        
+        local aimingScore = 0
+        if dot > 0.7 then
+            aimingScore = 100
+        elseif dot > 0.3 then
+            aimingScore = 50
+        end
+        score = score + aimingScore * (Settings.Weights.EnemyAiming / 100)
+    end
+    
+    local partScore = targetPart.Name == Settings.AimPart and 100 or 50
+    score = score + partScore * (Settings.Weights.BodyPart / 100)
+    
+    if isVisible then
+        score = score + 30
+    end
+    
+    return math.clamp(score, 0, 100)
+end
+
+local function IsInFOV(targetPart, fov)
+    if not targetPart then return false end
+    
+    local screenPos, onScreen = Camera:WorldToViewportPoint(targetPart.Position)
+    if not onScreen then return false end
+    
+    local distanceToCenter = (Vector2.new(screenPos.X, screenPos.Y) - Circle.Position).Magnitude
+    return distanceToCenter <= fov
+end
+
+local function UpdateFOV()
+    if CurrentMode == "LOCKED" then
+        TargetFOV = Settings.FOV.Locked
+        Circle.Color = Settings.Circle.Color.Locked
+    elseif CurrentMode == "WALLBANG" then
+        TargetFOV = Settings.FOV.Wallbang
+        Circle.Color = Settings.Circle.Color.Wallbang
+    else
+        TargetFOV = Settings.FOV.Search
+        Circle.Color = Settings.Circle.Color.Searching
+    end
+    
+    CurrentFOV = CurrentFOV + (TargetFOV - CurrentFOV) * Settings.FOV.TransitionSpeed
+    Circle.Radius = CurrentFOV
+end
+
+local function GetBestTarget()
+    local visibleTargets = {}
+    local allTargets = {}
+    local myTeam = GetPlayerTeam(LocalPlayer)
+    local screenCenter = Vector2.new(Circle.Position.X, Circle.Position.Y)
+    
+    for _, player in ipairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and IsAlive(player) then
+            local enemyTeam = GetPlayerTeam(player)
+            
+            local isEnemy = true
+            if Settings.TeamCheck then
+                if myTeam ~= "No Team" and enemyTeam ~= "No Team" and myTeam == enemyTeam then
+                    isEnemy = false
+                end
+            end
+            
+            if isEnemy then
+                local targetPart = GetTargetPart(player.Character)
+                if targetPart then
+                    local screenPos, onScreen = Camera:WorldToViewportPoint(targetPart.Position)
+                    if onScreen then
+                        local distanceToCircle = (Vector2.new(screenPos.X, screenPos.Y) - screenCenter).Magnitude
+                        local distance3D = (targetPart.Position - Camera.CFrame.Position).Magnitude
+                        
+                        if distance3D <= Settings.MaxDistance and distanceToCircle <= CurrentFOV then
+                            local hasLOS = HasLineOfSight(targetPart)
+                            
+                            if not Settings.Wallbang and not hasLOS then
+                                continue
+                            end
+                            
+                            local priority = CalculatePriority(player, targetPart, hasLOS)
+                            
+                            local targetData = {
+                                Part = targetPart,
+                                Player = player,
+                                Priority = priority,
+                                Distance = distance3D,
+                                DistanceToCircle = distanceToCircle,
+                                HasLOS = hasLOS,
+                                ScreenPos = Vector2.new(screenPos.X, screenPos.Y)
+                            }
+                            
+                            table.insert(allTargets, targetData)
+                            if hasLOS then
+                                table.insert(visibleTargets, targetData)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    if #visibleTargets > 0 then
+        table.sort(visibleTargets, function(a, b)
+            return a.Priority > b.Priority
+        end)
+        
+        local bestVisible = visibleTargets[1]
+        for _, target in ipairs(visibleTargets) do
+            if target.Priority > bestVisible.Priority - 10 then
+                if target.DistanceToCircle < bestVisible.DistanceToCircle then
+                    bestVisible = target
+                end
+            end
+        end
+        
+        CurrentMode = "LOCKED"
+        return bestVisible.Part, bestVisible
+        
+    elseif #allTargets > 0 then
+        table.sort(allTargets, function(a, b)
+            return a.Priority > b.Priority
+        end)
+        
+        CurrentMode = "WALLBANG"
+        return allTargets[1].Part, allTargets[1]
+    end
+    
+    CurrentMode = "SEARCHING"
+    return nil, nil
+end
+
+local function HumanizeAim(targetPos)
+    if not Settings.Humanizer.Enabled then return targetPos end
+    
+    if HumanizerDelay > 0 then
+        HumanizerDelay = HumanizerDelay - 1
+        return nil
+    end
+    
+    local errorOffset = Vector3.new(
+        (math.random() * 2 - 1) * Settings.Humanizer.AimError,
+        (math.random() * 2 - 1) * Settings.Humanizer.AimError,
+        (math.random() * 2 - 1) * Settings.Humanizer.AimError
+    )
+    
+    if math.random(1, 100) <= Settings.Humanizer.BreakChance then
+        return nil
+    end
+    
+    return targetPos + errorOffset
+end
+
+local function GetDynamicLerpSpeed(distance)
+    local speed = Settings.BaseLerpSpeed + (distance / Settings.MaxDistance) * 0.3
+    return math.clamp(speed, 0.1, 0.4)
+end
+
+local function ShouldKeepCurrentTarget()
+    if not CurrentTarget or not CurrentTargetData then return false end
+    if not IsTargetAlive(CurrentTarget) then return false end
+    
+    if not IsInFOV(CurrentTarget, Settings.FOV.Locked) then
+        return false
+    end
+    
+    local hasLOS = HasLineOfSight(CurrentTarget)
+    CurrentTargetData.HasLOS = hasLOS
+    
+    if hasLOS then
+        CurrentMode = "LOCKED"
+    else
+        if not Settings.Wallbang then
+            return false
+        end
+        CurrentMode = "WALLBANG"
+    end
+    
+    return true
+end
+
+UserInputService.InputBegan:Connect(function(input)
+    if input.KeyCode == Settings.ToggleKey then
+        AimbotEnabled = not AimbotEnabled
+        Circle.Visible = AimbotEnabled
+        Circle.Color = AimbotEnabled and Settings.Circle.Color.Searching or Settings.Circle.Color.Disabled
+        CurrentTarget = nil
+        CurrentTargetData = nil
+        SmoothTargetPosition = nil
+        CurrentMode = "SEARCHING"
+        CurrentFOV = Settings.FOV.Search
+        HUD:UpdateStatus(AimbotEnabled, CurrentMode, CurrentFOV)
+    end
+end)
+
+RunService.RenderStepped:Connect(function()
+    if not AimbotEnabled then 
+        HUD:UpdateStatus(false, CurrentMode, CurrentFOV)
+        return 
+    end
+    
+    local viewport = Camera.ViewportSize
+    Circle.Position = Vector2.new(viewport.X / 2, viewport.Y / 2)
+    
+    if CurrentTarget and not ShouldKeepCurrentTarget() then
+        CurrentTarget = nil
+        CurrentTargetData = nil
+        SmoothTargetPosition = nil
+        CurrentMode = "SEARCHING"
+    end
+    
+    FrameCounter = FrameCounter + 1
+    if FrameCounter >= Settings.UpdateRate then
+        FrameCounter = 0
+        
+        if not CurrentTarget then
+            local newTarget, targetData = GetBestTarget()
+            if newTarget then
+                CurrentTarget = newTarget
+                CurrentTargetData = targetData
+                SmoothTargetPosition = nil
+                HumanizerDelay = math.random(Settings.Humanizer.RandomDelay[1], 
+                                            Settings.Humanizer.RandomDelay[2])
+            end
+        end
+    end
+    
+    UpdateFOV()
+    HUD:UpdateStatus(AimbotEnabled, CurrentMode, CurrentFOV)
+    
+    if CurrentTarget and CurrentTargetData then
+        local cameraPos = Camera.CFrame.Position
+        local targetPos = CurrentTarget.Position
+        
+        local humanizedPos = HumanizeAim(targetPos)
+        if not humanizedPos then return end
+        
+        if not SmoothTargetPosition then
+            SmoothTargetPosition = humanizedPos
+        else
+            SmoothTargetPosition = SmoothTargetPosition:Lerp(humanizedPos, 0.7)
+        end
+        
+        local distance = (targetPos - cameraPos).Magnitude
+        local currentSpeed = GetDynamicLerpSpeed(distance)
+        
+        local direction = (SmoothTargetPosition - cameraPos).unit
+        Camera.CFrame = Camera.CFrame:Lerp(
+            CFrame.new(cameraPos, cameraPos + direction),
+            currentSpeed
+        )
+    end
+end)
+
+LocalPlayer.CharacterAdded:Connect(function()
+    CurrentTarget = nil
+    CurrentTargetData = nil
+    SmoothTargetPosition = nil
+    CurrentMode = "SEARCHING"
+    CurrentFOV = Settings.FOV.Search
+end)]
+    -- --------------------------------------------------------
+    
+    local Players = game:GetService("Players")
+   
+    createLauncher()
+
+end
